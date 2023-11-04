@@ -1,0 +1,89 @@
+.menu-header h1{
+  color: #777;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  align-items: center;
+  display: inline-block;
+}
+
+.menu-header .btn{
+  font-size: 20px;
+  background-color: #f4ce14;
+  border: 2px solid #f4ce14;
+  border-radius: 20px;
+  color: #495e57;
+  font-weight: 800;
+  margin-left: 75%;
+  transform: translateY(-150%);
+  padding: 0.5rem 1rem;
+  transition: background,border,color .5s;
+}
+
+
+/* Style for each card */
+.cards {
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    border: 0px solid #ddd;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color:rgba(245, 245, 245, 0.781);
+    overflow: hidden;
+  }
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px; 
+    position: relative;
+  }
+
+ .cards img{
+    width: 300px;
+    height: 200px;  
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px 10px 0 0; 
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+ .meal-titles h5 {
+    font-size: 22px;
+    color:#495e57;
+    margin: 20px;
+    display: inline-block;
+  }
+
+  .cards-container h1 {
+    font-size: 18px; 
+    color:#495e57;
+    font-weight: bold;
+    bottom: 40px;
+    margin-left: 10px;
+    transform: translateY(-30%);
+    position: absolute;
+  }
+  
+  .meal-prices p{
+    color: orange;
+    font-weight: 600;
+    transform: translateY(-245%);
+    margin-left: 80%;
+  }
+  
+  .meal-footer p {
+    font-size: 18px; 
+    color: #777;
+    padding: 10px;  
+  }
+
+  

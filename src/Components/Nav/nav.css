@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+    color: white;
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+
+.nav-bar {
+  background-color:white; 
+  padding: 10px 0; 
+}
+
+/* Style the unordered list (ul) */
+.nav-bar ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+/* Style the list items (li) */
+.nav-bar li {
+  margin: 0 20px;
+}
+
+/* Style the links (anchors) */
+.nav-bar a {
+  text-decoration: none; 
+  color: black; 
+  font-size: 20px; 
+  font-weight: bold; 
+  transition: color 0.3s;
+}
+
+/* Change link color on hover */
+.nav-bar a:hover {
+  color: #FF5733; 
+}

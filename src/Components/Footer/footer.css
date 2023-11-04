@@ -1,0 +1,105 @@
+.company-info{
+    margin: 50px;
+    display: inline-block;
+}
+
+
+.company-info img{
+    width: 160px;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 23%;
+}
+
+.company-info p{
+    font-size: 18px;
+    max-width: 250px;
+    margin-top: 20px;
+    margin-left: 23%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ li a {
+    color:black; 
+    text-decoration: none; 
+    transition: color 0.5s; 
+}
+
+li a:hover {
+    padding: 10px;
+    background-color:yellow; 
+    transition: background-color 0.3s; 
+    border-radius: 8px; 
+}
+
+
+.links{
+    display: inline-block;
+    transform: translateY(-25%);
+    margin-left: 80px;
+}
+
+.links h3{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+
+.links li{
+    margin: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+
+.contact{
+    display: inline-block;
+    transform: translateY(-85%);
+    margin-left: 50px;
+}
+
+.contact h3{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+
+.contact  li{
+    margin: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.contact li>span{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.media-links{
+    display: inline-block;
+    transform: translateY(-85%);
+    margin-left: 50px;
+}
+
+.media-links h3{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+
+.media-links li{
+    margin: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 20px;
+}
