@@ -5,7 +5,7 @@ import "../Footer/footer.css"
 const footer = () => {
   return (
     <footer>
-        <section>
+        <section className='info'>
             <div className='company-info'>
                 <img src={Logo} alt='img' />
                 <p>We are family Owned Mediterraneran restaurant focused on

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './App.css';
+import './App.css'
 import  Nav from './Components/Nav/nav'
 import Header from './Components/Header/header'
 import Menu from './Components/Menu/menu'

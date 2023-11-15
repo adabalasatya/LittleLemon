@@ -23,10 +23,19 @@
 
 /* Style for each card */
 .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px; 
+  position: relative;
+}
+
+.cards-container {
     display: inline-block;
-    width: 300px;
-    height: 500px;
-    margin: 20px;
+    width: 320px;
+    height: 450px;
+    margin: 30px;
     border: 0px solid #ddd;
     border-radius: 10px;
     padding: 0px;
@@ -35,17 +44,12 @@
     overflow: hidden;
   }
 
-  .cards-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px; 
-    position: relative;
+  .meal-details {
+    padding: 10px 10px 0 10px;
   }
 
- .cards img{
-    width: 300px;
+ .meal-image img{
+    width: 350px;
     height: 200px;  
     max-width: 100%;
     max-height: 100%;
@@ -59,31 +63,79 @@
  .meal-titles h5 {
     font-size: 22px;
     color:#495e57;
-    margin: 20px;
     display: inline-block;
   }
 
-  .cards-container h1 {
-    font-size: 18px; 
-    color:#495e57;
-    font-weight: bold;
-    bottom: 40px;
-    margin-left: 10px;
-    transform: translateY(-30%);
-    position: absolute;
-  }
   
   .meal-prices p{
     color: orange;
+    font-size: 18px;
     font-weight: 600;
-    transform: translateY(-245%);
+    margin-bottom: -10px;
+    transform: translateY(-120%);
     margin-left: 80%;
   }
   
   .meal-footer p {
     font-size: 18px; 
     color: #777;
-    padding: 10px;  
   }
 
+  .order-delivery h1{
+    color:#495e57;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    bottom: 90px;
+    
+  }
+
+
   
+  @media screen and (max-width: 768px){
+
+    .menu-header .btn{
+      font-size: 15px;
+      margin-left: 65%;
+      transform: translateY(-155%);
+      }
+      
+
+      .cards {
+        gap: 5px; 
+        padding: 0%;
+
+      }
+      
+      .cards-container {
+        width: 600px;
+         height: 400px;
+          display: inline-block;
+        }
+
+        .cards-container h1{
+          padding: 5px;
+          font-size: 18px;
+          transform: translateY(-2px);
+        }
+      
+        .cards img {
+          width: 700px;
+        };
+
+
+        .meal-footer p {
+          padding: 10px 0px ;
+          }
+
+
+        .order-delivery{
+          padding-left: 5px;
+          position: absolute;
+          transform: translatey(160px);
+          white-space: nowrap;
+    
+        }
+
+  } 

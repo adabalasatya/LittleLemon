@@ -1,3 +1,14 @@
+
+footer{
+    display: block;
+    -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+
+.info{
+    background-color: #495e57;
+}
+
 .company-info{
     margin: 50px;
     display: inline-block;
@@ -5,14 +16,16 @@
 
 
 .company-info img{
-    width: 160px;
-    height: 200px;
+    background-color:yellowgreen;
+    width: 150px;
+    height: 170px;
     max-width: 100%;
     max-height: 100%;
     margin-left: 23%;
 }
 
 .company-info p{
+    color: aliceblue;
     font-size: 18px;
     max-width: 250px;
     margin-top: 20px;
@@ -44,6 +57,7 @@ li a:hover {
 }
 
 .links h3{
+    color:black;
     font-size: 24px;
     text-align: center;
     margin: 10px;
@@ -60,18 +74,22 @@ li a:hover {
 
 
 .contact{
+    color: #495e57;
     display: inline-block;
     transform: translateY(-85%);
     margin-left: 50px;
 }
 
 .contact h3{
+    color: black;
+    font-weight: bold;
     font-size: 24px;
     text-align: center;
     margin: 10px;
 }
 
 .contact  li{
+    color: aliceblue;
     margin: 24px;
     font-weight: bold;
     text-transform: capitalize;
@@ -86,11 +104,14 @@ li a:hover {
 
 .media-links{
     display: inline-block;
-    transform: translateY(-85%);
+    transform: translateY(-80%);
     margin-left: 50px;
 }
 
 .media-links h3{
+    color:black;
+        font-family: Karla,sans-serif;
+        line-height: 1.5;
     font-size: 24px;
     text-align: center;
     margin: 10px;
@@ -103,3 +124,6 @@ li a:hover {
     font-size: 20px;
     margin-left: 20px;
 }
+
+
+  

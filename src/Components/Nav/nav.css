@@ -5,7 +5,16 @@ nav {
     background-color:white;
     color: white;
     padding: 10px;
+    z-index: 10001;
   }
+
+  .navbar {
+    padding: 10px 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 
   .logo img {
     width: 300px;
@@ -13,13 +22,41 @@ nav {
     margin-right: 10px;
   }
 
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    background-color:black;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+  }
+  
+  .nav-links {
+   display: flex;
+  }
+  
+  .nav-links.visible {
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 100%;
+    background-color: #495E57;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
 
 .nav-bar {
   background-color:white; 
   padding: 10px 0; 
 }
 
-/* Style the unordered list (ul) */
+
 .nav-bar ul {
   list-style: none; 
   padding: 0;
@@ -28,12 +65,12 @@ nav {
   justify-content: center; 
 }
 
-/* Style the list items (li) */
+
 .nav-bar li {
   margin: 0 20px;
 }
 
-/* Style the links (anchors) */
+
 .nav-bar a {
   text-decoration: none; 
   color: black; 
@@ -42,7 +79,43 @@ nav {
   transition: color 0.3s;
 }
 
-/* Change link color on hover */
+
 .nav-bar a:hover {
   color: #FF5733; 
 }
+
+
+@media screen and (max-width: 768px){
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-bar .nav-links{
+    display: none;
+  }
+
+  .logo img{
+    width: 260px;
+    height: auto;
+    margin-left: -20%;
+  }
+
+  .nav-bar {
+    display: flex;
+    margin-right: -90%;
+  }
+
+  .nav-links.visible {
+    display: flex;
+    z-index: 1000;
+    padding: 20px 0;
+  }
+
+  .bar{
+    border-radius: 10px;
+    width: 30px;
+    height: 5px;
+    background:#495E57;
+  }
+  
+} 

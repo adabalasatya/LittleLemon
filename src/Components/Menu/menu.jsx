@@ -10,12 +10,15 @@ function Main() {
         <button className='btn'>Online Menu</button>
       </div>
 
-      <div className='cards-container'>
+      <div className='cards'>
       {recipes.map((recipe) => (
-        <div className='cards' key={recipe.id}>
+        <div className='cards-container' key={recipe.id}>
 
+         <div className='meal-image'>
           <img src={recipe.image} alt='' />
+         </div>
 
+         <div className='meal-details'>
           <div className='meal-titles'>
             <h5>{recipe.title}</h5>
           </div>
@@ -28,8 +31,9 @@ function Main() {
           <div className='meal-footer'>
           <p>{recipe.description}</p>
           </div>
+         </div>
 
-          <div>
+          <div className='order-delivery'>
             <h1>Order a delivery </h1>
           </div>
 
