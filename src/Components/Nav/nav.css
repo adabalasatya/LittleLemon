@@ -84,8 +84,9 @@ nav {
   color: #FF5733; 
 }
 
-
 @media screen and (max-width: 768px){
+
+
   .menu-icon {
     display: block;
   }
@@ -94,15 +95,14 @@ nav {
     display: none;
   }
 
+  .nav-bar .nav-links li{
+    background-color: white;
+  }
+
   .logo img{
     width: 260px;
     height: auto;
     margin-left: -20%;
-  }
-
-  .nav-bar {
-    display: flex;
-    margin-right: -90%;
   }
 
   .nav-links.visible {
@@ -116,6 +116,8 @@ nav {
     width: 30px;
     height: 5px;
     background:#495E57;
+    margin-left: 110px;
+    transform:translateY(-5px) ;
   }
-  
+
 } 

@@ -32,7 +32,8 @@ function Nav() {
         <div className='bar'></div>
         </div>
 
-        <div className='nav-bar'>
+        
+          <div className='nav-bar'>
           <ul className={`nav-links ${menuOpen ? "visible" : ""}` }>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/menu">Menu</Link></li>
@@ -40,7 +41,8 @@ function Nav() {
             <li><Link to="/order-online">Order Online</Link></li>
             <li><Link to="/login">Login</Link></li>
           </ul>
-        </div>
+          </div>
+        
 
         <Routes>
           <Route path="/" element={<Home />} />

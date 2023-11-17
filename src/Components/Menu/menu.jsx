@@ -1,6 +1,9 @@
 import React from 'react'
 import recipes from '../../recipes'
 import './menu.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMotorcycle } from '@fortawesome/free-solid-svg-icons';
+
 
 function Main() {
   return (
@@ -33,9 +36,10 @@ function Main() {
           </div>
          </div>
 
-          <div className='order-delivery'>
-            <h1>Order a delivery </h1>
-          </div>
+         <div className='order-delivery'>
+      <FontAwesomeIcon icon={faMotorcycle} className='motorcycle-icon' />
+      <h1>Order a delivery</h1>
+    </div>
 
         </div>
       ))}

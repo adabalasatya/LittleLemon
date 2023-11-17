@@ -8,9 +8,9 @@ header>section {
 
 /* Style for the content container */
 .content {
-  background-color: #495e57; /* Set a green background color */
+  background-color: #495e57; 
   padding-top:1.875rem;
-  border-radius: 1px; /* Add rounded corners to the content */
+  border-radius: 1px; 
   padding: 40px;
 }
 
@@ -19,14 +19,14 @@ header>section {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row; /* Display items in a row (side by side) */
+  flex-direction: row;
 }
 
 /* Style for the heading elements */
 .content-info {
   grid-row: 1;
   grid-column: 1;
-  flex: 1; /* Take up remaining available space */
+  flex: 1; 
   text-align: left;
   padding-left: 20px;
 }
@@ -156,7 +156,7 @@ margin: 10px 0;
   }
 
 .image-card{
-  width: 520px;
+  width: 400px;
   height: 350px;
   right: 8%;
   transform: translateY(5%);
