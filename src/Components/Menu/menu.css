@@ -1,7 +1,8 @@
 
 .menu-header h1{
+  font-family: Markazi Tex;
   font-size: xx-large;
-  color: #777;
+  color:#495e57;
   margin-top: 80px;
   margin-bottom: 30px;
   margin-left: 15%;
@@ -105,16 +106,19 @@
 
 
     .menu-header h1{
-      font-size: 22px;
+      grid-column: 1/2;
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: 1.5;
+      padding: 0%;
+      margin-bottom: 5%;
+      white-space: wrap;
     }
 
 
     .menu-header .btn{
-      font-size: 12px;
-      margin-left: 65%;
-      border: 1px solid #f4ce14;
-       border-radius: 15px;
-      transform: translateY(-145%);
+      font-size: 15px;
+      white-space: wrap;
       }
       
 
