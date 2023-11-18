@@ -28,6 +28,8 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 10px; 
+  margin: 0%;
+  padding: 0%;
   position: relative;
 }
 
@@ -36,9 +38,7 @@
     width: 320px;
     height: 450px;
     margin: 30px;
-    border: 0px solid #ddd;
     border-radius: 10px;
-    padding: 0px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color:rgba(245, 245, 245, 0.781);
     overflow: hidden;
@@ -101,23 +101,34 @@
 
 
   
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 992px){
+
+
+    .menu-header h1{
+      padding: 5%;
+      margin: 5%;
+      margin-bottom: 0%;
+      white-space: wrap;
+    }
+
 
     .menu-header .btn{
-      font-size: 15px;
+      font-size: 12px;
       margin-left: 65%;
-      transform: translateY(-155%);
+      border: 1px solid #f4ce14;
+       border-radius: 15px;
+      transform: translateY(-145%);
       }
       
 
       .cards {
         gap: 5px; 
-        padding: 0%;
-
+        padding-left: 0%;
+        
       }
       
       .cards-container {
-        width: 600px;
+        width: 500px;
          height: 400px;
           display: inline-block;
         }
@@ -134,14 +145,14 @@
 
 
         .meal-footer p {
-          padding: 10px 0px ;
+          padding: 5px 0px 5px 0px ;
           }
 
 
         .order-delivery{
-          padding-left: 5px;
           position: absolute;
-          transform: translatey(160px);
+          padding-left: 8px;
+          transform: translatey(140px);
           white-space: nowrap;
         }
 

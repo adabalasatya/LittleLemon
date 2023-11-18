@@ -118,7 +118,7 @@ margin: 10px 0;
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
 
   .content{
     position: relative;
@@ -151,15 +151,15 @@ margin: 10px 0;
   }
 
   .content-info .button-primary{
-    display: inline-block;
+    display:flex;
     margin-top: 8px;
   }
 
 .image-card{
-  width: 400px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   right: 8%;
-  transform: translateY(5%);
+  transform: translateY(20%);
 }
 
 }
