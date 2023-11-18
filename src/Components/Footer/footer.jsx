@@ -10,8 +10,8 @@ import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free
 
 const footer = () => {
   return (
-    <footer>
-        <section className='info'>
+    <footer className='site-footer'>
+        <section>
             <div className='company-info'>
                 <img src={Logo} alt='img' />
             </div>

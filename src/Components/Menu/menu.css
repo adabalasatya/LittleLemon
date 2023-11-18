@@ -1,27 +1,27 @@
+
 .menu-header h1{
+  font-size: xx-large;
   color: #777;
   margin-top: 80px;
   margin-bottom: 30px;
-  margin-left: 10%;
+  margin-left: 15%;
   align-items: center;
   display: inline-block;
 }
 
-.menu-header .btn{
+ .btn{
   font-size: 20px;
   background-color: #f4ce14;
   border: 2px solid #f4ce14;
   border-radius: 20px;
   color: #495e57;
   font-weight: 800;
-  margin-left: 75%;
+  margin-left: 65%;
   transform: translateY(-150%);
   padding: 0.5rem 1rem;
   transition: background,border,color .5s;
 }
 
-
-/* Style for each card */
 .cards {
   display: flex;
   justify-content: center;
@@ -101,14 +101,11 @@
 
 
   
-  @media screen and (max-width: 992px){
+  @media screen and (max-width: 767px){
 
 
     .menu-header h1{
-      padding: 5%;
-      margin: 5%;
-      margin-bottom: 0%;
-      white-space: wrap;
+      font-size: 22px;
     }
 
 
@@ -161,4 +158,6 @@
         }
         
 
-  } 
+  }  
+
+ 

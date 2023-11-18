@@ -1,9 +1,6 @@
-footer{
-    display: block;
-}
-
-.info{
+.site-footer{
     background-color: #495e57;
+    color: white;
 }
 
 .company-info{
@@ -168,7 +165,7 @@ li a:hover {
 
 
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 767px){
 
 
     .company-info img{
@@ -229,4 +226,4 @@ li a:hover {
 
 
 
-}
+} 
