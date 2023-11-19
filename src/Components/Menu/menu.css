@@ -121,18 +121,16 @@
       transform: translateY(-170%);
       white-space: wrap;
       }
-      
 
       .cards {
-        gap: 5px; 
-        padding-left: 0%;
-        
+        gap: 4px; 
       }
       
       .cards-container {
-        width: 500px;
-         height: 400px;
-          display: inline-block;
+        width: 320px;
+        line-height: 1;
+        height: 400px;
+        margin: 20px;
         }
 
         .cards-container h1{
@@ -151,15 +149,18 @@
           }
 
 
-        .order-delivery{
+        .order-delivery {
           position: absolute;
           padding-left: 8px;
+        }
+
+        .order-delivery h1{
           transform: translatey(140px);
           white-space: nowrap;
         }
 
-        .motorcycle-icon {
-          bottom: 99px;
+       .motorcycle-icon {
+        top: 22px;
         }
         
 
