@@ -111,7 +111,7 @@
       font-weight: bold;
       line-height: 1.5;
       padding: 0%;
-      margin:5px 0px 10px 5px;
+      margin:5px 0px 20px 5px;
       white-space: wrap;
     }
 
@@ -119,6 +119,7 @@
     .menu-header .btn{
       font-size: 15px;
       white-space: wrap;
+      margin-top: 5px;
       }
       
 
