@@ -122,16 +122,21 @@
       white-space: wrap;
       }
 
+      .meal-footer p {
+        font-size: 16px; 
+      }
+
       .cards {
         gap: 4px; 
         grid-row: auto;
+        max-width: fit-content;
+        max-height: fit-content;
       }
       
       .cards-container {
         width: 320px;
-        line-height: 1;
         height: 400px;
-        margin: 20px;
+        margin: 10px;
         }
 
         .cards-container h1{
@@ -156,7 +161,8 @@
         }
 
         .order-delivery h1{
-          transform: translatey(140px);
+          margin: 5px;
+          transform: translateY(145px);
           white-space: nowrap;
         }
 
