@@ -124,6 +124,7 @@
 
       .cards {
         gap: 4px; 
+        grid-row: auto;
       }
       
       .cards-container {

@@ -86,6 +86,10 @@ nav {
 
 @media screen  and (max-width:767px){
 
+  .nav-bar{
+    grid-template-columns:auto auto auto;
+  }
+
   .menu-icon {
     display: block;
   }
@@ -114,10 +118,10 @@ nav {
     border-radius: 5px;
     width: 35px;
     height: 5px;
+    justify-content: end;
     margin-left: 80px;
     background:#495E57;
-    padding: 0px;
-    transform:translateY(-3px) ;
+    transform:translateY(-3px); 
   }
 
 } 
