@@ -162,6 +162,7 @@
 
         .order-delivery h1{
           margin: 5px;
+          position: absolute;
           transform: translateY(145px);
           white-space: nowrap;
         }

@@ -8,6 +8,9 @@ import Reservations from '../../Pages/reservations';
 import OrderOnline from '../../Pages/orderonline';
 import Login from '../../Pages/login';
 import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+
 
 function Nav() {
 
@@ -26,13 +29,16 @@ function Nav() {
         </div>
 
 
-        <div className='menu-icon' onClick={toggleMenu}>
-        <div className='bar'></div>
-        <div className='bar'></div>
-        <div className='bar'></div>
-        </div>
+        <button className='menu-icon' onClick={toggleMenu}>
+          {menuOpen ? (
+            <FontAwesomeIcon icon={faXmark} size="2x" />
+          ) : (
+            <FontAwesomeIcon icon={faBars} size="2x" />
+          )}
+        </button>
 
-        
+
+
           <div className='nav-bar'>
           <ul className={`nav-links ${menuOpen ? "visible" : ""}` }>
             <li><Link to="/">Home</Link></li>
