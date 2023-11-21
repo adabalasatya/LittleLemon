@@ -18,13 +18,7 @@ function Nav() {
 
   const toggleMenu = () =>{
     setMenuOpen(!menuOpen);
-    const navLinks = document.querySelector('.nav-links');
-    if (navLinks) {
-      navLinks.classList.toggle('smooth-open');
-    }
   };
-
-
 
   return (
     <Router>
