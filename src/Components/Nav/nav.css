@@ -134,17 +134,28 @@ nav {
   }
 
   .nav-links.visible li {
-    margin-bottom: 55px; 
+    margin-bottom: 10px; 
+    margin-left: -20px;
     border-radius: 8px; 
   }
 
   .nav-links.visible a {
-    text-decoration: none; 
-    color:#495E57; 
-    font-size: 18px; 
-    padding: 10px; 
-    display: block;
-    transition: background-color 0.3s ease;
+    display: flex;
+    font-size: 16px;
+    font-weight: 450;
+    color: #495E57;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+  }
+
+  .nav-links.visible a:hover,
+  .nav-links.visible a:focus {
+    margin: 20px;
+    background-color: yellow;
   }
 
   .logo img {
