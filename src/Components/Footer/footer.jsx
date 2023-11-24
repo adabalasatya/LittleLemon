@@ -6,8 +6,6 @@ import { faMapMarkerAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg
 import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 
-
-
 const footer = () => {
   return (
     <footer className='site-footer'>
