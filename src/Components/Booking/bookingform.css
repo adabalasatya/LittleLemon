@@ -1,63 +1,52 @@
 /* bookingform.css */
 
 .bookings {
-  margin: 0 auto;
+  max-width: 400px;
+  margin: 20px auto;
   padding: 20px;
-  max-width: 500px;
-  background-color: #f9f9f9;
   border: 1px solid #ccc;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
 }
 
 .bookings h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
   text-align: center;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-.form-field {
-  display: flex;
-  flex-direction: column;
-  margin: 60px;
-  margin-bottom: 80px;
+.bookings form div {
+  margin-bottom: 15px;
 }
 
-label {
-  margin-bottom: 5px;
+.bookings label {
+  display: block;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
-input[type='date'],
-input[type='number'],
-select {
-  padding: 8px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-}
-
-select {
+.bookings input[type='date'],
+.bookings input[type='number'],
+.bookings select {
   width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
 }
 
-button[type='submit'] {
-  padding: 10px 20px;
+.bookings button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
   background-color: #007bff;
   color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-button[type='submit']:hover {
+.bookings button[type='submit']:hover {
   background-color: #0056b3;
-}
-
-/* Optional: Add styles for validation error messages */
-.form-field p.error-message {
-  margin-top: 5px;
-  font-size: 14px;
-  color: red;
 }

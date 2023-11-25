@@ -19,9 +19,7 @@ const BookingForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission - you can perform validation or send data to an API here
     console.log('Form submitted:', formData);
-    // Clear form fields after submission if needed
     setFormData({
       date: '',
       time: '',
@@ -33,8 +31,8 @@ const BookingForm = () => {
   return (
     <div className='bookings'>
       <h2>Booking Form</h2>
-      <form className='form-field ' onSubmit={handleSubmit}>
-        <div  >
+      <form  onSubmit={handleSubmit}>
+        <div>
           <label htmlFor='book-date'>Choose Date:</label>
           <input
             id='book-date'
