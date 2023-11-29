@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './bookingform.css';
-import { useNavigate } from 'react-router-dom';
+import './booking.css';
+import ConfirmedBooking from './confirmedbooking '
 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
@@ -10,7 +10,7 @@ const BookingForm = () => {
     occasion: ''
   });
 
-  const navigate = useNavigate();
+  const [showConfirmation, setShowConfirmation] = useState(false);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -30,13 +30,16 @@ const BookingForm = () => {
       occasion: ''
     });
 
-    navigate('/confirmed');
+    setShowConfirmation(true);
   
   };
 
   return (
     <div className='bookings'>
-      <h2>Table reservation</h2>
+      
+      {!showConfirmation && (
+        <>
+        <h2>Table reservation</h2>
       <form  onSubmit={handleSubmit}>
         <div>
           <label htmlFor='book-date'>Choose Date:</label>
@@ -100,9 +103,11 @@ const BookingForm = () => {
 
         <div>
           <button type='submit'>Make your reservation</button>
-          
         </div>
       </form>
+      </>
+      )}
+      {showConfirmation && <ConfirmedBooking data={formData} />}
     </div>
   );
 };

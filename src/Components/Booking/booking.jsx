@@ -7,7 +7,6 @@ const ParentComponent = () => {
   return (
     <div>
      <BookingForm/>
-     
     </div>
   );
 };

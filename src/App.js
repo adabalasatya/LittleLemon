@@ -8,8 +8,6 @@ import OrderOnline from './Pages/Order Online/orderonline';
 import Login from './Pages/Login/login';
 
 import HomeUpper from './Components/HomeUpper/homeupper';
-import ConfirmedBooking from './Components/Booking/confirmedbooking '
-
 
 function App() {
   
@@ -25,7 +23,6 @@ function App() {
 
         <Route path="/" element={<Reservations />} />
         <Route path="/booking" element={<HomeUpper/>} />
-        <Route path="/confirmed" element={<ConfirmedBooking/>} />
 
       </Routes>
     </Router>

@@ -4,7 +4,7 @@ import Booking from '../../Components/Booking/booking'
 import Footer from '../../Components/Footer/footer'
 
 
-const reservations = () => {
+const Reservations = () => {
   return (
     <div>
     <Header/>
@@ -14,4 +14,4 @@ const reservations = () => {
   )
 }
 
-export default reservations
+export default Reservations

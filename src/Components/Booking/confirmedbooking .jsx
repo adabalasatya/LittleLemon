@@ -1,18 +1,18 @@
 import React from 'react';
-import './bookingform.css'
-import { Link } from 'react-router-dom';
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ConfirmedBooking = () => {
   return (
-    <div className='confirm'>
-      <div className='confirmation-message'>
-        <h1>Your reservation has been confirmed!</h1>
-        <p>You will receive an email with all the details</p>
-        <Link to="/" className='home-link'>
-          <button className='home-button'>Go to Home</button>
-        </Link>
+   <div>
+     <div className="confirmed-booking">
+      <FontAwesomeIcon icon={faCircleCheck} size="3x" className="check-icon" />
+      <div className="booking-details">
+        <h1 className="confirmation-header">Your reservation has been confirmed.</h1>
+        <p className="details-text">You will receive an email with all the details.</p>
       </div>
     </div>
+   </div>
   );
 };
 
