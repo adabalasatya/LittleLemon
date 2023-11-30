@@ -7,6 +7,7 @@ const menu = () => {
   return (
     <div>
     <Header/>
+    <hr className="long-line" />
       <Menu/>
       <Footer/>
     </div>

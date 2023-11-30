@@ -79,3 +79,9 @@
     font-weight: bold;
     font-size: 20px;
   }
+
+  .long-line {
+    border: none;
+    border-top: 15px solid #495E57; /* Adjust line color and thickness as needed */
+    width: 100%; /* Adjust line width */
+  }

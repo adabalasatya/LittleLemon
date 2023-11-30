@@ -8,6 +8,7 @@ const Reservations = () => {
   return (
     <div>
     <Header/>
+    <hr className="long-line" />
     <Booking/>
     <Footer/>
     </div>

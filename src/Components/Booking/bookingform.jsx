@@ -28,7 +28,9 @@ const BookingForm = () => {
       time: '',
       guests: '',
       occasion: ''
-    });
+      
+    }
+    );
 
     setShowConfirmation(true);
   
@@ -36,7 +38,6 @@ const BookingForm = () => {
 
   return (
     <div className='bookings'>
-      
       {!showConfirmation && (
         <>
         <h2>Table reservation</h2>

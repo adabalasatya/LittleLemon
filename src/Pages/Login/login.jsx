@@ -43,6 +43,7 @@ const Login = () => {
   return (
     <>
       <Header />
+        <hr className="long-line" />
       <div className="form-container">
         <h2>SignIn & Signup</h2>
         <form onSubmit={handleSubmit}>
