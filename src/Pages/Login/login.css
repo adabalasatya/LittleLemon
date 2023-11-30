@@ -68,3 +68,14 @@
     background-color: #495e57;
   }
   
+  .warning-msg{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: red;
+  }
+
+  .login-msg{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+  }
