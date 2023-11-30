@@ -92,3 +92,21 @@
   color:#495E57;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 767px){
+  .confirmed-booking {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  .confirmation-header {
+    font-size: 22px;
+      line-height: 1;
+      font-weight: bold;
+  }
+  .details-text {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
